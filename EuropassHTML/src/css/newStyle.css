@@ -1,0 +1,12 @@
+
+section > header, section > div.content {
+    display: inline-block;
+}
+
+section > header{
+    margin-right:0.5rem;
+    width: 13.5rem;
+    vertical-align: top;
+    text-align: right;
+}
+

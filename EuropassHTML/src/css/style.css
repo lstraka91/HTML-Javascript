@@ -1,0 +1,115 @@
+html{
+/*background-color: #eefff2;*/
+background-color: black;
+    background-image: url("../img/bckgrnd.png");
+    background-repeat: repeat;
+    background-size: 10% ;
+    color: white;
+
+}
+nav>a{
+    display: inline-block;
+    background-color: mintcream;
+    border: solid;
+    color: black;
+}
+nav{
+    margin-left: 5%;
+    background-color: black;
+    margin-right: 5%;
+}
+h2>span{
+    /*background-color: black;*/
+
+    color: floralwhite;
+}
+/*img{*/
+    /*display: block;*/
+    /*margin: auto;*/
+
+/*}*/
+
+#head{
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: #00a8dc;
+    }
+
+a:hover:not(.active) {
+    background-color: #111111;
+}
+li{
+    margin-left: 13%;
+    font-family: "Comic Sans MS";
+}
+
+
+#osobne{
+    text-align: left;
+}
+dd{
+    color: Highlight;
+    padding-left: 13%;
+}
+dt{
+    padding-left: 5%;
+}
+
+section{
+    margin-left: 5%;
+}
+footer{
+    margin-left: 5%;
+    text-align: center;
+    color: lavender;
+}
+
+nav a:link, a:visited {
+    background-color: #00a8dc;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#paragrf{
+    text-align: left;
+    padding-left: 15%;
+}
+strong{
+    color:cornflowerblue;
+}
+table{
+    padding-left: 15%;
+}
+th,td{
+    border: 1px solid ;
+    text-align: center;
+}
+#others{
+    margin-left: 15%;
+}
+#job{
+    position: static;
+    padding-left: 6%;
+}
+
+section > header, section > div.content {
+    display: inline-block;
+}
+
+section > header{
+    margin-right:0.5rem;
+    width: 13.5rem;
+    vertical-align: top;
+    text-align: right;
+}
+section >div.content{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50%;
+}
+

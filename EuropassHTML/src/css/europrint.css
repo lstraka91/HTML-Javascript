@@ -1,0 +1,76 @@
+body{
+
+    margin-left: 5%;
+    margin-right: 5%;
+    align-content: center;
+    align-items: center;
+}
+section > header, section > div.content {
+    display: inline-block;
+
+}
+
+section > header{
+    margin-right:0.5rem;
+    width: 20rem;
+    vertical-align: top;
+    text-align: right;
+}
+section > div.content{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+    width: 50rem;
+
+}
+
+footer{
+    text-align: center;
+}
+
+table{
+    padding-left: 15%;
+}
+th,td{
+    border: 1px solid ;
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+nav>a{
+    display: inline-block;
+    background-color: white;
+    border: solid;
+    color: black;
+}
+nav{
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+a:hover:not(.active) {
+    background-color: #111111;
+}
+nav a:link, a:visited {
+    background-color: #00a8dc;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+h4{
+    color: black;
+}
+h1{
+    color: black;
+}
+hr{
+    color: black;
+    background-color: black;
+    height: 2px;
+
+
+}
