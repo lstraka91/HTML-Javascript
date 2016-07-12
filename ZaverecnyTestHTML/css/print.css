@@ -1,0 +1,17 @@
+h1 {
+    font-family: "Lucida Sans";
+}
+
+.no-print {
+    display: none;
+}
+
+.show-only-print {
+    display: none ;
+}
+
+@media print {
+    .show-only-print {
+        display: block;
+    }
+}

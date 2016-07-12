@@ -1,0 +1,23 @@
+.jumbotron {
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    color: #ff085e;
+}
+.jumbotext{
+    color: #d4ed62;
+    font-family:"Lucida Sans";
+
+}
+.show-only-print {
+    display: none ;
+}
+.text-primary{
+    color: slategray;
+}
+
+body{
+background-color: black;
+background-image: url("../img/back.jpg");
+background-repeat: repeat;
+background-size: 50% ;
+}

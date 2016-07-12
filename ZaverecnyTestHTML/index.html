@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mestecko HTML</title>
+
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--mustache import-->
+    <script>window.Mustache || document.write('<script src="js/mustache.min.js"><\/script>')</script>
+    <link rel="stylesheet" media="print " href="css/print.css">
+    <link rel="stylesheet" media="screen" href="css/screen.css">
+
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top no-print hidden-xs">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Mesto Poprad</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#zinfo">Základné informácie</a></li>
+                <li><a href="#poloha">Poloha </a></li>
+                <li><a href="#sucastnost">O meste</a></li>
+                <li><a href="#sport">Šport</a></li>
+                <li><a href="#pocet">Obyvatelia</a></li>
+                <li><a href="#pocasie">Počasie</a></li>
+                <li><a href="#anketa">Anketa k dovolenke</a></li>
+                <li><a href="http://www.poprad.sk" target="_blank">Poprad official</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <!--JUMBOTRON -->
+    <div class="jumbotron no-print">
+        <div class="row">
+            <div class="col-md-2 col-lg-2">
+                <img src="img/poprad.png" alt="poprad" class="img-responsive">
+            </div>
+            <div class="col-md-9 col-lg-9">
+                <h1 class="text-center text-primary">Mesto Poprad </h1>
+            </div>
+        </div>
+        <p class="text-center jumbotext" >Okresné mesto, ktoré vďaka svojej polohe dostalo prívlastok vstupná brána do Vysokých
+            Tatier</p>
+    </div>
+    <div class="show-only-print">
+        <header class="text-center">
+            <img src="img/poprad.png" alt="PP">
+            <h1><span>POPRAD </span></h1>
+        </header>
+    </div>
+    <section>
+
+        <div class="row">
+
+            <div class="col-md-1 col-lg-1">
+                <header>
+
+                    <h4 class="text-primary text-center" id="zinfo">Základné informácie</h4>
+
+                </header>
+            </div>
+
+
+            <div class="col-md-11 col-lg-11">
+
+
+                <p>Poprad je okresné mesto na severe Slovenska v Prešovskom kraji.
+                    Počtom obyvateľov je najväčším mestom Spiša, tretím najväčším mestom východného Slovenska a desiatym
+                    najväčším mestom na Slovensku.
+                    ejiny Popradu sa začali už v dávnoveku. Odvtedy sa život na tomto území nezastavil.
+                    Pracovné nástroje, keramika, zbrane – to všetko svedčí o tom, že na území mesta a v jeho blízkom
+                    okolí pulzoval čulý život dávno pred narodením Krista a neustal ani po prelome letopočtov.</p>
+
+            </div>
+        </div>
+        <br>
+
+    </section>
+
+
+    <section>
+        <div class="row">
+            <div class="col-md-1">
+                <header>
+
+                    <h4 class="text-primary text-center" id="poloha">Polohopis</h4>
+
+                </header>
+            </div>
+
+
+            <div class="col-md-11">
+
+                <p>Poprad leží v Popradskej kotline, ktorá je súčasťou Podtatranskej kotliny, medzi Vysokými a
+                    Belianskymi Tatrami (na severe), Levočskými vrchmi (na východe), Kozími chrbtami (na juhu) a
+                    Štrbským rozvodím (na západe), na rovnomennej rieke Poprad. Obklopené je poľnohospodárskymi
+                    pozemkami, ktoré prechádzajú do súvislých lesných komplexov. Po väčšinu roka v Poprade vanie západný
+                    vietor. V roku 1950 mal Poprad 11 000 obyvateľov, ku dňu 30.9. 2004 ich mal už 54 589. Na území
+                    mesta boli vybudované tri sídliská: Banícka, Juh (najväčšie, časti Juh I-VI) a Západ (časti
+                    I-III).
+                </p>
+                <br>
+                <img src="img/pp.jpg" alt="polohamesta" class="img-responsive">
+                <br>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="col-md-1">
+                <header>
+
+                    <h4 class="text-primary text-center" id="sucastnost">Súčastnosť</h4>
+
+                </header>
+            </div>
+
+
+            <div class="col-md-11">
+
+                <p>Mesto <strong>Poprad</strong> so svojimi 53 000 obyvateľmi predstavuje dynamicky sa rozvíjajúce
+                    administratívne,
+                    hospodárske, kultúrne a spoločenské centrum podtatranského regiónu. Výhodná zemepisná a
+                    strategická poloha mu umožňuje všestranný rozvoj a špecifickú orientáciu na cestovný ruch,
+                    šport a na možnosti všestrannej sebarealizácie jeho obyvateľov. Mesto bohaté na históriu je hrdé
+                    i na svoju súčasnosť. Mohutný rozvoj dosiahlo postupne, predovšetkým však za posledné roky, počas
+                    ktorých prešlo nebývalým rozmachom a vytvorilo občanom podmienky na plnohodnotný kultúrny i
+                    spoločenský život.
+                </p>
+
+                <p>
+                    Všetky časti mesta: Spišská Sobota, Veľká, Stráže pod Tatrami, Matejovce, Kvetnica a Poprad prešli
+                    postupnou rekonštrukciou námestí, niektorých budov, chodníkov, verejných komunikácií i osvetlenia,
+                    oddychových zón, detských ihrísk a pod. Postupne boli zrealizované jednotlivé trasy cyklistických
+                    chodníkov, kruhové križovatky, viacúčelová športová hala Aréna Poprad, ale aj ďalšie investície
+                    menšieho či väčšieho rozsahu.
+                </p>
+                <p>
+                    Rozvoj mesta pokračuje aj rozširovaním bytovej výstavby, skvalitňovaním cestovného ruchu, obchodu a
+                    služieb, rozvojom stredného a vysokého školstva, vytváraním pracovných príležitostí a oddychových
+                    zón. Podmienky na rozvoj turistického a cestovného ruchu nastali v novopostavenom vodnom areáli
+                    AquaCity, ktorý umožňuje celoročne všestranné relaxačné vyžitie vo vodnom svete spolu s poskytovaním
+                    nadštandardných hotelových služieb a kongresových podmienok.
+                    Poprad dostal viaceré ocenenia a priaznivé ratingové hodnotenia. Dobré meno a prestíž mesta
+                    potvrdila i návšteva britskej kráľovnej Alžbety II. s princom Filipom v októbri 2008.
+                </p>
+                <p>
+                    Mesto aktívne pracuje na tvorbe projektov zo štrukturálnych fondov v oblasti vybavenosti, opráv a
+                    rekonštrukcie školských budov. Rozšírili a opravili sa mestské komunikácie a chodníky pre peších.
+                    Ukončením obnovy a zveľadenia parku pred železničnou stanicou sa vytvoril nielen príjemný prvý dojem
+                    z návštevy mesta, ale park poskytuje vhodné prostredie pre chvíle oddychu či relaxácie. Vytvorili sa
+                    priaznivé podmienky na rozširovanie počtu zdravotníckych objektov a služieb obchodnej siete,
+                    športovej činnosti a kultúrnych aktivít. Postupne sa realizuje obnova ďalších zdravotníckych
+                    stredísk, obchodných centier a modernizácia hotelových sietí. Po zriadení prvej mobilnej ľadovej
+                    plochy v centre Popradu mesto iniciovalo aj zriadenie druhej väčšej pri viacúčelovej hale Aréna
+                    Poprad. Vybudovaný priemyselný park Poprad – Matejovce je využitý takmer na 100 % a jednotliví
+                    podnikatelia vytváraním pracovných miest prispievajú k zníženiu miery evidovanej nezamestnanosti v
+                    rámci celého popradského okresu. V roku 2011 samospráva otvorila nové centrum sociálnych služieb a
+                    starostlivosti o seniorov, ktoré poskytuje sociálne služby vysokého štandardu.
+                </p>
+            </div>
+            <br>
+        </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="col-md-1">
+                <header>
+
+                    <h4 class="text-primary text-center" id="sport">Šport</h4>
+
+                </header>
+            </div>
+
+
+            <div class="col-md-11">
+                <p>
+                    V meste je rozvinutý šport na celkom dobrej úrovni. Mesto má svoje talenty v rôznych športových
+                    odvetviach. Medzi tie najzáujimavejšie určite patria :
+                </p>
+
+                <ul>
+
+                        <li>Hokej - HK ŠKP Poprad</li>
+                        <li>Futbal - FK POPRAD</li>
+                        <li>Basketbal</li>
+                        <li>Bojové športy</li>
+                        <li>Cyklistika</li>
+                        <li>Cyklo-Trial</li>
+                        <li>a pod.</li>
+
+                </ul>
+                <br>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col-md-1">
+                <header>
+                    <h4 class="text-primary text-center" id="pocet">Počet obyvateľov </h4>
+                </header>
+            </div>
+            <div class="col-md-8 center-block">
+                <p>
+                    <strong>Počet obyvateľov podľa veku: </strong>
+                </p>
+                <div class="table-responsive">
+                    <table class="table">
+                        <tbody>
+                        <tr class="text-primary">
+                            <th>Kategória</th>
+                            <th>Počet</th>
+                        </tr>
+
+                        <tr>
+                            <td>Vek od 0 do 3 rokov</td>
+                            <td>1451</td>
+
+                        </tr>
+                        <tr>
+                            <td>Vek od 3 do 6 rokov</td>
+                            <td>1522</td>
+
+                        </tr>
+                        <tr>
+                            <td>Vek od 6 do 15 rokov</td>
+                            <td>4090</td>
+
+                        </tr>
+                        <tr>
+                            <td>Vek od 15 do 18 rokov</td>
+                            <td>1489</td>
+
+                        </tr>
+                        <tr>
+                            <td>Vek od 18 do 60 rokov</td>
+                            <td>31767</td>
+
+                        </tr>
+                        <tr>
+                            <td>Vek nad 60</td>
+                            <td>10649</td>
+                        </tr>
+                        <tr class="text-danger">
+                            <td><strong>SPOLU:</strong></td>
+                            <td><strong>50968</strong></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <p>Informácie o počte sú stiahnuté z : <a href="https://www.poprad.sk/demografia.phtml?id5=19971">
+                    Poprad-oficialna stránka</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="col-md-1">
+                <header>
+
+                    <h4 class="text-primary text-center" id="pocasie">Počasie</h4>
+
+                </header>
+            </div>
+
+
+            <div class="col-md-11">
+                <p>
+                    Poprad patrí klimaticky do mierne teplej oblasti s priemerným počtom letných dní v roku menej ako 50
+                    (max. teplota 25 º C a viac). Územie mesta patrí do typu mierne suchej až vlhkej „kotlinovej“ klímy
+                    s veľkou inverziou teplôt, kde priemerná teplota v januári je od –3,5 až do 6 º C, júlová teplota
+                    dosahuje 16 až 17 º C a ročný úhrn zrážok sa pohybuje okolo 600 – 800 mm. Klíma Popradu je vo veľkej
+                    miere ovplyvnená regiónom Vysokých Tatier, ktorý patrí do chladnej klimatickej oblasti. Oblačnosť v
+                    Poprade je najväčšia v zime – cca 67 %, ale zvýšená je už v novembri pod vplyvom častej hmly alebo
+                    oblačnosti. Najmenšia oblačnosť je koncom leta (v auguste 55 % a začiatkom jesene 51 %). Veterné
+                    pomery sú charakterizované prevažnými západnými a juhozápadnými vetrami. Najmenej dujú vetry severné
+                    a severo-západné. Najviac dní so silným vetrom je v období december až marec.
+                    Hydrologicky leží väčšina mesta v povodí rieky Poprad, ktorá odvádza vody prostredníctvom Dunajca,
+                    prítoku Visly, do Baltského mora. Rieka Poprad má v Matejovciach priemerný ročný prietok 3,31 m³/s.
+                </p>
+                <div id="dnesnepocasie" class="table-responsive">
+
+                </div>
+
+
+                <br>
+                <div id="predpoved" class="table-responsive"></div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="no-print">
+        <div class="row">
+            <div class="col-md-1">
+                <header>
+                    <h4 class="text-primary text-center" id="anketa">Dotaznik spokojnosti</h4>
+                </header>
+            </div>
+            <div class="col-md-11">
+                <strong> Vyplnte tento krátky dotazník spoločne s komentárom </strong>
+                <br>
+                <form id="frmArt" method="post" action="badProcessing.html"
+                      class="text-center form-horizontal center-block">
+
+                    <div class="form-group ">
+                        <label for="title" class="control-label col-md-2">Názov: </label>
+
+                        <div class="col-md-5">
+                            <input type="text" name="title" id="title" maxlength="100" class="form-control"
+                                   pattern="\S[\S\s]*" required
+                                   title="Názov článku."
+                                   placeholder="Navsteva mesta alebo staznosť na mesto"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group ">
+                        <label for="author" class="control-label col-md-2">Autor:</label>
+
+                        <div class="col-md-5">
+                            <input type="text" name="author" id="author" placeholder="vlozte svoje meno"
+                                   class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group ">
+                        <label for="content" class="control-label col-md-2">Text článku:</label>
+                        <div class="col-md-5">
+                    <textarea name="content" id="content" spellcheck="true" lang="sk" rows="10" required
+                              title="Obsah článku. Povinná položka.  Môže byť obyčajný text alebo html."
+                              placeholder="Zadajte vas pribeh" class="form-control"></textarea>
+
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <label for="zazitok" class="control-label col-md-2">Aký bol výlet :</label>
+                        <div class="col-md-5 text-left">
+                            <input type="radio" id="zazitok" name="zazitok" value="1"/>
+                            <label for="zazitok">super </label>
+                            <input type="radio" id="zazitok2" name="zazitok" value="2"/>
+                            <label for="zazitok2"> priemer </label>
+                            <input type="radio" id="zazitok3" name="zazitok" value="3"/>
+                            <label for="zazitok3"> zle </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="atraction">Čo som navštívil:</label>
+                        <div class="col-md-5">
+                            <input type="text" name="atraction" id="atraction"
+                                   maxlength="50"
+                                   spellcheck="true" lang="sk"
+                                   list="atrakcie" class="form-control" placeholder="Kde som v Poprade bol"/>
+
+                            <datalist id="atrakcie">
+                                <option>v AquaCity</option>
+                                <option>na hokeji</option>
+                                <option>na futbal</option>
+                                <option>vo Vysokych Tatrach</option>
+                                <option>v Ganovciach</option>
+                                <option>v Spišská Sobota</option>
+                            </datalist>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="visit" class="control-label col-md-2">Bol som tu</label>
+                        <div class="col-md-5 text-left">
+                            <input type="checkbox" id="visit" name="sam"/>
+                            <label for="visit">Sám</label>
+                            <input type="checkbox" id="family" name="rodina"/>
+                            <label for="family">S rodinou</label>
+                            <input type="checkbox" id="friends" name="priatelia"/>
+                            <label for="friends">S priatelmi.</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="imageLink" class="control-label col-md-2">Fotka z vyletu: </label>
+                        <div class="col-md-5">
+                            <input type="text" name="imageLink" id="imageLink" placeholder="Vlozte adresu obrazku"
+                                   class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-2">
+
+                        </div>
+                        <button type="submit" class="btn btn-primary col-md-5 ">
+                            Ulož anketu
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <hr>
+        <p class="glyphicon glyphicon-copyright-mark"><strong> 2016 by Straka Lukas </strong></p></footer>
+</div>
+
+
+<!-- Vlozenie jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+<!--Bootstrap import-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/pocasie.js"></script>
+<script src="js/anketa.js"></script>
+</body>
+</html>
